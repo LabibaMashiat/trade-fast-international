@@ -1,16 +1,16 @@
-import React from 'react';
+import { Helmet } from "react-helmet";
+import ExploreTfbButton from "../../TrueFashionBd/ExploreTfbButton/ExploreTfbButton/ExploreTfbButton";
 
 const Home = () => {
     return (
         <div>
-          <button className="btn btn-neutral">Neutral</button>
-<button className="btn btn-primary">Primary</button>
-<button className="btn btn-secondary">Secondary</button>
-<button className="btn btn-accent">Accent</button>
-<button className="btn btn-info">Info</button>
-<button className="btn btn-success">Success</button>
-<button className="btn btn-warning">Warning</button>
-<button className="btn btn-error">Error</button>
+             <Helmet>
+        <title>Home | Trade Fast International</title>
+        <meta name="description" content="Get in touch with TradeFast International" />
+      </Helmet>
+           <div>
+            <ExploreTfbButton></ExploreTfbButton>
+           </div>
         </div>
     );
 };
