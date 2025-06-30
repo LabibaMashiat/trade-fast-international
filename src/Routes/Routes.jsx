@@ -8,6 +8,7 @@ import Contact from "../pages/Contact/Contact/Contact";
 import TrueFashionBd from "../pages/TrueFashionBd/TrueFashionBd/TrueFashionBd";
 import ProductsTFB from "../pages/TrueFashionBd/ProductsTFB/ProductsTFB/ProductsTFB";
 import GalleryTFB from "../pages/TrueFashionBd/GalleryTFB/GalleryTFB/GalleryTFB";
+import AboutTFB from "../pages/TrueFashionBd/AboutTFB/AboutTFB";
 
 export const router = createBrowserRouter([
   {
@@ -39,12 +40,20 @@ export const router = createBrowserRouter([
         element: <TrueFashionBd />,
         children: [
           {
-            path: "products", // relative path, resolves to /truefashionbd/products
+            index: true, // 👈 default page when visiting /truefashionbd
+            element: <AboutTFB />,
+          },
+          {
+            path: "products",
             element: <ProductsTFB />,
           },
           {
-            path: "gallery", // relative path, resolves to /truefashionbd/gallery
+            path: "gallery",
             element: <GalleryTFB />,
+          },
+          {
+            path: "contact",
+            element: <Contact></Contact>,
           },
         ],
       },

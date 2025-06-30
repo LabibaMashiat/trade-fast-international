@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const ExploreTfbButton = () => {
   return (
-    <div className="md:mt-8 sm:mt-6 text-center">
+    <div className="text-center sm:pt-4 md:pt-0">
       <Link to="/truefashionbd">
-        <button className="group w-full bg-fuchsia-950 text-white py-3 px-6 text-lg font-semibold hover:bg-fuchsia-800 transition duration-300 flex flex-col items-center justify-center">
+        <button className="group w-full bg-gray-200 text-black py-4 px-6 lg:text-3xl  hover:bg-gray-300 transition duration-300 flex flex-col items-center justify-center">
           <div className="flex items-center justify-center">
-           <h5> Explore  <i> True Fashion BD</i></h5>
+           <h5> Explore  <i className="font-semibold"> True Fashion BD</i></h5>
             <svg
               className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition duration-300"
               fill="none"
@@ -25,7 +25,7 @@ const ExploreTfbButton = () => {
           <span className="text-xs italic mt-1 tracking-wide">
             A sister concern of <a
               href="/"
-              className="font-semibold text-white text-sm"
+              className="font-semibold text-sm"
             >
               Trade Fast International
             </a>

@@ -8,10 +8,12 @@ const Main = () => {
     return (
         <div>
 
-            <Navbar></Navbar>
-            <div  className="pt-[96px]">
-                <Outlet></Outlet>
-            </div>
+            
+            
+           <div className='pt-[96px] sm:pt-[96px] md:pt-[128px] lg:pt-[128px] '>
+            <Outlet></Outlet>
+           </div>
+          
             <Footer></Footer>
         </div>
     );
