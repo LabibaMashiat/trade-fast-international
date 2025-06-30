@@ -6,12 +6,14 @@ import MarketReach from './MarketReach/MarketReach';
 import OurAssociates from './OurAssociates/OurAssociates';
 import WhatSetsUsApart from './WhatSetsUsApart/WhatSetsUsApart';
 import VisionMission from './VissionMission/VisiionMission';
+import WhatWeOffer from './WhatWeOffer/WhatWeOffer';
 
 const AboutTFB = () => {
     return (
         <div>
             <WhoWeAre></WhoWeAre>
             <CoreServices></CoreServices>
+            <WhatWeOffer></WhatWeOffer>
             <WovenFabrics></WovenFabrics>
             <MarketReach></MarketReach>
             <OurAssociates></OurAssociates>

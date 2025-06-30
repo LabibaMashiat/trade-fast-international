@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Banner from "./Banner/Banner";
 import ProductsCategory from "./ProductsCategory/ProductsCategory";
+import ExploreProducts from "../ExploreProducts/ExploreProducts";
 
 const ProductsTFB = () => {
     return (
@@ -11,6 +12,7 @@ const ProductsTFB = () => {
       </Helmet>
       <div>
        <Banner></Banner>
+       <ExploreProducts></ExploreProducts>
        <ProductsCategory></ProductsCategory>
       </div>
         </div>
