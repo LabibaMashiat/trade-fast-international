@@ -7,7 +7,7 @@ const NavbarTFB = () => {
       <div className="navbar fixed top-0 z-50 bg-cyan-900 shadow-sm py-4 px-4 flex items-center justify-between">
         {/* Logo and Branding */}
 <div className="flex items-center gap-3">
-  <div className="w-24">
+  <div className="w-36">
     <img src={logo} alt="logo" className="object-cover w-full rounded" />
   </div>
   <div className="leading-tight">

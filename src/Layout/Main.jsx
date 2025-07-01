@@ -10,7 +10,7 @@ const Main = () => {
 
             
             
-           <div className='pt-[96px] sm:pt-[96px] md:pt-[128px] lg:pt-[128px] '>
+           <div className='pt-[96px] sm:pt-[96px] md:pt-[128px] lg:pt-[128px] bg-gray-200'>
             <Outlet></Outlet>
            </div>
           
