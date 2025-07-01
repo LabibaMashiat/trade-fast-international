@@ -8,6 +8,7 @@ import TextileWorkProcess from "../TextileWorkProcess/TextileWorkProcess";
 import WhatWeOffer from "../WhatWeOffer/WhatWeOffer";
 import Commitment from "../Commitment/Commitment";
 import GlobalReach from "../GlobalReach/GlobalReach";
+import WhyChoose from "../WhyChoose/WhyChoose";
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <Quote></Quote>
             <FabricsAndAccessories></FabricsAndAccessories>
             <WhatWeOffer></WhatWeOffer>
+            <WhyChoose></WhyChoose>
             <TextileWorkProcess></TextileWorkProcess>
             <Commitment></Commitment>
             <GlobalReach></GlobalReach>

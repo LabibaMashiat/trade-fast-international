@@ -4,7 +4,7 @@ import logo from "/tfi_logo.jpg";
 const Navbar = () => {
   return (
     <div className="w-full">
-      <div className="navbar fixed top-0 z-50 bg-blue-800 shadow-sm py-4 px-4 flex items-center justify-between">
+      <div className="navbar fixed top-0 z-50 bg-blue-950 shadow-sm py-4 px-4 flex items-center justify-between">
         {/* Logo and Branding */}
 <div className="flex items-center gap-3">
   <div className="w-36">

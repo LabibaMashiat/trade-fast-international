@@ -4,11 +4,12 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/About/About/About";
 import Products from "../pages/Products/Products/Products";
 import Gallery from "../pages/Gallery/Gallery/Gallery";
-import Contact from "../pages/Contact/Contact/Contact";
+
 import TrueFashionBd from "../pages/TrueFashionBd/TrueFashionBd/TrueFashionBd";
 import ProductsTFB from "../pages/TrueFashionBd/ProductsTFB/ProductsTFB/ProductsTFB";
 import GalleryTFB from "../pages/TrueFashionBd/GalleryTFB/GalleryTFB/GalleryTFB";
 import AboutTFB from "../pages/TrueFashionBd/AboutTFB/AboutTFB";
+import Contact from "../pages/Contact/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: <Contact></Contact>,
       },
       {
         path: "/truefashionbd",
