@@ -7,10 +7,12 @@ import OurAssociates from './OurAssociates/OurAssociates';
 import WhatSetsUsApart from './WhatSetsUsApart/WhatSetsUsApart';
 import VisionMission from './VissionMission/VisiionMission';
 import WhatWeOffer from './WhatWeOffer/WhatWeOffer';
+import Banner from './Banner/Banner';
 
 const AboutTFB = () => {
     return (
         <div>
+            <Banner></Banner>
             <WhoWeAre></WhoWeAre>
             <CoreServices></CoreServices>
             <WhatWeOffer></WhatWeOffer>

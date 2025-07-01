@@ -3,14 +3,14 @@ import { Building2 } from "lucide-react"; // Optional icon from lucide-react
 const associates = {
   Woven: [
     "Arrival Fashion Ltd",
-    "Tivoli Apparels Ltd",
+    
     "Provati Apparels Limited",
     "Purbachal Apparels Ltd",
-    "Abalone Fashion Limited",
+   
   ],
   Knit: [
     "Confidence Texwear Ltd",
-    "B. Brothers Garments Co. Ltd",
+    
   ],
   Sweater: [
     "Corus Fashion Ltd",
