@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/tfi_logo.jpg";
+import logo from "/logoOfTFB.jpg";
 
 const NavbarTFB = () => {
   return (
@@ -57,7 +57,6 @@ const NavbarTFB = () => {
             <li><Link to="/truefashionbd">About Us</Link></li>
             <li><Link to="/truefashionbd/products">Products</Link></li>
             <li><Link to="/truefashionbd/gallery">Gallery</Link></li>
-            <li><Link to="/truefashionbd/contact">Contact</Link></li>
              <li><Link to="/">Trade Fast International</Link></li>
             
           </ul>
@@ -70,7 +69,7 @@ const NavbarTFB = () => {
              <li><Link to="/truefashionbd">About Us</Link></li>
             <li><Link to="/truefashionbd/products">Products</Link></li>
             <li><Link to="/truefashionbd/gallery">Gallery</Link></li>
-            <li><Link to="/truefashionbd/contact">Contact</Link></li>
+           
             <li><Link to="/">Trade Fast International</Link></li>
           </ul>
         </div>

@@ -48,7 +48,7 @@ const WhyChoose = () => {
   return (
     <section className="bg-base-100 py-16 px-6 md:px-20 lg:px-32">
       <div className="text-center mb-12">
-        <h2 className="sm:text-3xl md:text-4xl text-center font-semibold  mb-4">What Choose TFI</h2>
+        <h2 className="sm:text-3xl md:text-4xl text-center font-semibold  mb-4">Why Choose TFI</h2>
   <hr />
         <p className="text-neutral text-lg max-w-3xl mx-auto">
           With decades of industry experience, we focus on reliable sourcing, customization, and consistent quality—backed by professional service tailored to your manufacturing needs.

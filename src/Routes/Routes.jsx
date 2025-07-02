@@ -41,7 +41,7 @@ export const router = createBrowserRouter([
         element: <TrueFashionBd />,
         children: [
           {
-            index: true, // 👈 default page when visiting /truefashionbd
+            index: true, 
             element: <AboutTFB />,
           },
           {
@@ -52,10 +52,7 @@ export const router = createBrowserRouter([
             path: "gallery",
             element: <GalleryTFB />,
           },
-          {
-            path: "contact",
-            element: <Contact></Contact>,
-          },
+         
         ],
       },
     ],

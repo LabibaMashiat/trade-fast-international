@@ -1,5 +1,11 @@
 import React from "react";
-import { FaLinkedin, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaArrowUp } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+  FaArrowUp,
+} from "react-icons/fa";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -9,13 +15,16 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-blue-950 text-primary-content w-full relative z-10">
-        <div className="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row justify-between items-start gap-12">
+        <div className="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row justify-between items-start gap-12 flex-wrap">
           {/* Address */}
           <div className="flex flex-col items-start gap-4 max-w-sm">
             <h3 className="text-xl font-semibold uppercase tracking-wider">Our Address</h3>
             <div className="flex items-center gap-3 text-lg">
               <FaMapMarkerAlt className="text-secondary" />
-              <p>House #28, Road #7/C, Sector #9,<br />Uttara, Dhaka-1230, Bangladesh</p>
+              <p>
+                House #28, Road #7/C, Sector #9,<br />
+                Uttara, Dhaka-1230, Bangladesh
+              </p>
             </div>
           </div>
 
@@ -38,7 +47,7 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Social + Copyright */}
+          {/* Social Links */}
           <div className="flex flex-col items-start gap-6 max-w-sm">
             <h3 className="text-xl font-semibold uppercase tracking-wider">Follow Us</h3>
             <a
@@ -53,6 +62,35 @@ const Footer = () => {
             <p className="mt-auto text-sm opacity-80">
               &copy; {new Date().getFullYear()} TRUE FASHION BD &amp; TRADE FAST INTERNATIONAL. All rights reserved.
             </p>
+          </div>
+
+          {/* Brand Logos & Links */}
+          <div className="flex flex-col items-start gap-6 max-w-sm">
+            <h3 className="text-xl font-semibold uppercase tracking-wider">Our Brands</h3>
+            <div className="flex items-center gap-6">
+              <a
+                href="/"
+                className="flex flex-col items-center gap-2 hover:text-secondary transition-colors"
+              >
+                <img
+                  src="/logoOfTFI.jpg"
+                  alt="Trade Fast International"
+                  className="h-10 w-auto"
+                />
+                <span className="text-sm">Trade Fast International</span>
+              </a>
+              <a
+                href="/truefashionbd"
+                className="flex flex-col items-center gap-2 hover:text-secondary transition-colors"
+              >
+                <img
+                  src="/logoOfTFB.jpg"
+                  alt="True Fashion BD"
+                  className="h-10 w-auto"
+                />
+                <span className="text-sm">True Fashion BD</span>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
