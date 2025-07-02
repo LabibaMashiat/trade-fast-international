@@ -1,5 +1,5 @@
 
-import fabricImage from '../../../assets/images/Trade Fast International/Garments Accessories/access-10.avif'; // adjust the path
+import fabricImage from '../../../assets/images/Trade Fast International/Garments Accessories/access-3.png'; // adjust the path
 
 const FabricsAndAccessories = () => {
   return (
@@ -10,7 +10,7 @@ const FabricsAndAccessories = () => {
           <img
             src={fabricImage}
             alt="Fabrics and Accessories"
-           className="rounded-lg shadow-md max-w-[500px] w-full h-auto object-cover mx-auto"
+           className="rounded-lg shadow-md max-w-[400px] w-full h-auto object-cover mx-auto"
           />
         </div>
 

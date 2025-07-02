@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Navbar from "../../Shared/Navbar/Navbar/Navbar";
 import ExploreTfbButton from "../../TrueFashionBd/ExploreTfbButton/ExploreTfbButton/ExploreTfbButton";
+import BentexCollections from "../BentexCollections/BentexCollections/BentexCollections";
 
 const Gallery = () => {
     return (
@@ -12,6 +13,7 @@ const Gallery = () => {
       <div>
          <Navbar></Navbar>
       <ExploreTfbButton></ExploreTfbButton>
+       <BentexCollections></BentexCollections>
       </div>
         </div>
     );

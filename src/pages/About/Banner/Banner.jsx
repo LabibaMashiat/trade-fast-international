@@ -1,4 +1,4 @@
-import banner_img from "../../../assets/images/Trade Fast International/Garments Accessories/access-11.avif"
+import banner_img from "../../../assets/images/Trade Fast International/Garments Accessories/access-10.avif"
 
 const Banner = () => {
     return (

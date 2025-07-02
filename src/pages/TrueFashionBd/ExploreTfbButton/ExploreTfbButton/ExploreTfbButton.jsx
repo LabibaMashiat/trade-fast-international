@@ -1,14 +1,30 @@
 import { Link } from "react-router-dom";
+import tfbLogo from "/logoOfTFB.jpg"; // Adjust if necessary
 
 const ExploreTfbButton = () => {
   return (
-    <div className="text-center sm:pt-4 md:pt-0">
+    <div className="text-center">
       <Link to="/truefashionbd">
-        <button className="group w-full bg-gray-200 text-black py-4 px-6 lg:text-3xl  hover:bg-gray-300 transition duration-300 flex flex-col items-center justify-center">
-          <div className="flex items-center justify-center">
-           <h5> Explore  <i className="font-semibold"> True Fashion BD</i></h5>
+        <button className="group w-full max-w-full mx-auto bg-gradient-to-r from-blue-800 via-purple-700 to-pink-600 text-white py-6 px-8  shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+          <div className="flex items-center justify-center gap-4">
+            <img
+              src={tfbLogo}
+              alt="True Fashion BD Logo"
+              className="w-10 h-10 md:w-12 md:h-12 object-contain rounded-full border-2 border-white shadow-md group-hover:scale-110 transition-transform duration-300"
+            />
+            <div className="flex flex-col items-start">
+              <span className="text-lg md:text-xl ">
+                Explore <i className="font-semibold">True Fashion BD</i>
+              </span>
+              <span className="text-sm italic tracking-wide font-medium">
+                A sister concern of{" "}
+                <span className="underline font-semibold">
+                  Trade Fast International
+                </span>
+              </span>
+            </div>
             <svg
-              className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition duration-300"
+              className="ml-4 w-6 h-6 md:w-7 md:h-7 animate-bounce group-hover:translate-x-1 transition-transform duration-300"
               fill="none"
               stroke="currentColor"
               strokeWidth={2}
@@ -22,14 +38,6 @@ const ExploreTfbButton = () => {
               />
             </svg>
           </div>
-          <span className="text-xs italic mt-1 tracking-wide">
-            A sister concern of <a
-              href="/"
-              className="font-semibold text-sm"
-            >
-              Trade Fast International
-            </a>
-          </span>
         </button>
       </Link>
     </div>
